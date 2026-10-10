@@ -11,13 +11,14 @@ body {
 
 .header {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     padding-left: 250px;
     padding-right: 250px;
     padding-top: 20px;
     
     color: #F9FAF8;
     background-color: #1F2937;
+    gap: 600px;
 }
 
 .lefttext {
@@ -36,9 +37,9 @@ body {
 
 .hero {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: flex-start;
-    gap: 200px;
+    gap: 360px;
     background-color: #1F2937;
     color: #F9FAF8;
     padding-left: 250px;

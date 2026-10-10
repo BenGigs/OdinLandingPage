@@ -1,18 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,700;1,100;1,200;1,300;1,400&display=swap');
 body {
     font-family: Roboto;
     
 }
 
-a, ul {
-
-    text-decoration: none;
-    list-style-type: none;
-    margin: 0px;
-    padding: 0px;
-
-}
+/* Here starts the hero section */
 
 .header {
     display: flex;
@@ -68,6 +61,127 @@ img {
     width: 500px;
 }
 
+/* Here starts the info section */
+
+.information {
+    margin-bottom: 120px;
+    margin-top: 30px
+}
+
+.infoheader {
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.fourboxes {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding-top: 30px;
+}
+
+.card {
+    border: 2px solid #3882F6;
+    width: 160px;
+    height: 160px;
+    border-radius: 10%;
+    border-width: 3px;
+}
+
+.cardtext {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-basis: 166px;
+
+    gap: 46px;
+    padding-top: 3px;
+
+    color: rgb(56, 56, 56);
+    font-weight: 500;
+    font-size: 15px;
+}
+
+/* Here starts the quote */
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 150px;
+
+    background-color: #E5E7EB;
+    color: #1F2937;
+    
+    
+}
+
+.quotetext {
+    display: flex;
+    width: 815px;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    
+}
+
+.sourcetext {
+    font-weight: bold;
+    font-size: 22px;
+    text-align: right;
+    width: 700px;
+}
+
+/* Here starts the call to action! */
+
+.calltoaction {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background-color: #3882F6;
+    border-radius: 10px;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 75px;
+    margin-bottom: 75px;
+
+    width: auto;
+    height: 150px;
+    gap: 300px;
+
+    color: white;
+}
+
+.calltext {
+    gap: 15px;
+}
+
+.calltitle {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.callsubtext {
+    font-weight: 300;
+}
+
+/* Here starts the footer */
+
+.footer {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+
+    color: white;
+    background-color: #1F2937;
+}
+
 ul {
     display: flex;
     gap: 15px;
@@ -81,3 +195,11 @@ h2, p {
     margin: 2px;
 }
 
+a, ul {
+
+    text-decoration: none;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+
+}
